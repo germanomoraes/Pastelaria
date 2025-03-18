@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Pastelaria </title>
+    <link rel="stylesheet" href="pastelaria.css">
+    <link rel="shortcut icon" href="pastel.jpg" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Pastelaria </h1>
+        </div>
+    </header>
+
+    <section id="produtos">
+        <h2>Produtos</h2>
+        <div class="produto">
+            <img src="pasteldecarne.jpg" alt="Pastel de Carne">
+            <h3>Pastel de Carne</h3>
+            <p>R$ 6,00</p>
+            <label for="quantidade1">Quantidade:</label>
+            <input type="number" id="quantidade1" value="0" min="0" />
+            <button class="adicionar" data-nome="Pastel de Carne" data-preco="6.00">Adicionar ao Carrinho</button>
+        </div>
+        <div class="produto">
+            <img src="pasteldefrango.jpg" alt="Pastel de Frango">
+            <h3>Pastel de Frango</h3>
+            <p>R$ 5,50</p>
+            <label for="quantidade2">Quantidade:</label>
+            <input type="number" id="quantidade2" value="0" min="0" />
+            <button class="adicionar" data-nome="Pastel de Frango" data-preco="5.50">Adicionar ao Carrinho</button>
+        </div>
+        <div class="produto">
+            <img src="pasteldequeijo.jpg" alt="Pastel de queijo">
+            <h3>Pastel de Queijo</h3>
+            <p>R$ 5,00</p>
+            <label for="quantidade3">Quantidade:</label>
+            <input type="number" id="quantidade3" value="0" min="0" />
+            <button class="adicionar" data-nome="Pastel de Queijo" data-preco="5.00">Adicionar ao Carrinho</button>
+        </div>
+        <div class="produto">
+            <img src="coxinha.jpg" alt="coxinha">
+            <h3>Coxinha</h3>
+            <p>R$ 3,50</p>
+            <label for="quantidade4">Quantidade:</label>
+            <input type="number" id="quantidade4" value="0" min="0" />
+            <button class="adicionar" data-nome="Coxinha" data-preco="3.50">Adicionar ao Carrinho</button>
+        </div>
+        <div class="produto">
+            <img src="empada.jpg" alt="Empada de Frango">
+            <h3>Empada de Frango</h3>
+            <p>R$ 4,00</p>
+            <label for="quantidade5">Quantidade:</label>
+            <input type="number" id="quantidade5" value="0" min="0" />
+            <button class="adicionar" data-nome="Empada de Frango" data-preco="4.00">Adicionar ao Carrinho</button>
+        </div>
+        <div class="produto">
+            <img src="refri.jpg" alt="Refrigerante">
+            <h3>Refrigerante</h3>
+            <p>R$3,00</p>
+            <label for="quantidade6">Quantidade:</label>
+            <input type="number" id="quantidade6" value="0" min="0" />
+            <button class="adicionar" data-nome="Refrigerante" data-preco="3.00">Adicionar ao Carrinho</button>
+        </div>
+    </section>
+
+    <section id="carrinho">
+        <h2>Carrinho de Compras</h2>
+        <ul id="lista-carrinho"></ul>
+        <p id="total">Total: R$ 0,00</p>
+        <button id="finalizar">Finalizar Compra</button> 
+        <button id="esvaziar-carrinho">Limpar Carrinho</button>   
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Pastelaria </p>
+    </footer>
+    </main>
+    <footer>
+    <p> Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="pastelaria.js"></script>
+</body>
+</html>
