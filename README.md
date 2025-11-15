@@ -1,2 +1,1 @@
-# Pastelaria
-Pastelaria
+# Projeto site de uma Pastelaria 
